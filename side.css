@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+ body {
+   font-family: 'Comfortaa', cursive;
+   font-size : 16px;
+   background-color : lightblue;
+   }
+   aside {
+        width : 20%;
+        height: 100%;
+        position: fixed;
+        background-color: red;
+   }
+   aside a{
+   text-decoration :none;
+        text-align:center;
+        color :white;
+        background-color :#ab534aab;
+        display :block;
+        margin : 10px 10px;
+        padding :10px 10px;
+
+   }
+   aside a:hover {
+   background-color :black;
+   }
+   section {
+   margin-left : 20%;
+   padding-left :20px;
+   background-color :#f5ebebd9;
+   }
+   .test1 {
+   background : linear-gradient(50deg,lightgreen, lightblue);
+   float : left;
+   width : 50%;
+   }
+
+.test2 {
+    background : linear-gradient(50deg,lightyellow, lightblue);
+   float : right ;
+   width :50%;
+   }
+   .test3{
+   background : linear-gradient(50deg,lightyellow, lightblue);
+   clear :both;
+   padding:5px 5px;
+   margin : 0 0 10px 0;
+   }
+.container {
+float: right;
+margin-left : 20%;
+ display :flex ;
+  flex-direction : column;
+ width :77%}
+
+ .container > div {
+
+  border : 1px solid black ;
+ }
